@@ -2,7 +2,7 @@ import {MessageCircleCode,Facebook,Instagram, Twitter, Youtube} from 'lucide-rea
 
 export default function Footer(){
     return(
-        <footer className="bg-gray-950 w-screen px-10 bottom-0">
+        <footer className="bg-gray-950 w-screen px-10 bottom-0 mt-7">
             <div className="main flex justify-between items-center text-white h-2/3 border-b-1 border-gray-600 pt-20 pb-30" >
                 <div className="logo h-20">
                     <img src="logoWhite.svg" className='h-15' alt="" />
