@@ -1,24 +1,16 @@
-import CardRow from "./CardRow.jsx"
+import SmallCardRow from "./SmallCardRow.jsx"
 
 export default function Row1() {
     const items = [
-        { img: "activity/one.jpg", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/two.png", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/three.jpg", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/four.png", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/five.jpg", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/six.png", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/seven.jpg", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/eight.jpg", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/nine.jpg", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/ten.jpg", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/eleven.png", title: "prod 1", desc: "description", price: 5000 },
-        { img: "activity/tweleve.jpg", title: "prod 1", desc: "description", price: 5000 },
+        { img: "row1/one.jpg", title: "prod 1", desc: "description", price: 5000 },
+        { img: "row1/two.jpg", title: "prod 1", desc: "description", price: 5000 },
+        { img: "row1/three.jpg", title: "prod 1", desc: "description", price: 5000 },
+        { img: "row1/four.jpg", title: "prod 1", desc: "description", price: 5000 },
     ]
 
     return (
         <div className="p-6">
-            <CardRow category="Offers on Activity" items={items} />
+            <SmallCardRow category="Top hindi movies" items={items} />
         </div>
     )
 }
