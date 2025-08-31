@@ -2,7 +2,7 @@ import { MapPin, CircleUserRound, Search } from 'lucide-react';
 
 export default function Navbar() {
     return (
-        <header className="flex justify-between px-4  h-16 items-center">
+        <header className="flex justify-between px-4  h-16 items-center mb-7 bg-white">
             <div className="nav flex justify-between items-center">
                 <div className="static flex justify-between p-1 items-center gap-3">
                     <div className="logo">
