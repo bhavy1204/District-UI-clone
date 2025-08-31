@@ -1,11 +1,10 @@
 import './App.css'
+import Home from './Home/Home.jsx'
 
 function App() {
   return (
     <>
-      <h1 className='text-green-500 text-3xl'>
-        Hello Activites
-      </h1>
+      <Home/>
     </>
   )
 }
