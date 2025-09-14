@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="user flex justify-between items-center gap-2">
                 <div className="search text-sm w-75 border border-gray-500 px-2 py-1 rounded-md flex gap-1 items-center">
                     <Search className='text-indigo-600 '/>
-                    <input type="text" placeholder="Search for events, movies and restaurents" className='w-full' />
+                    <input type="text" placeholder="Search for events, movies and restaurents" className='w-full focus:outline-none' />
                 </div>
                 <div className="user-menu">
                     <CircleUserRound className='size-8 bg-gray-500 text-white stroke-1 rounded-full'/>
